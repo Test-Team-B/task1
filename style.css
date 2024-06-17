@@ -32,4 +32,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+    background-color: rebeccapurple;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
