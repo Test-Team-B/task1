@@ -1,5 +1,25 @@
-.container {
-    display:flex;
+.container-red {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+
+
+
+.container-blue {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+
+
+
+.container-green {
+    display: flex;
     flex-flow: column;
     align-items: center;
 }
