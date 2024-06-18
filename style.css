@@ -4,18 +4,23 @@
     align-items: center;
     color: red;
 }
+
 .container-red h1 {
     background-color: brown;
 }
+
 .container-red h2 {
     font-style: oblique;
 }
+
 .helloRed {
     font-size: 100px;
 }
+
 .gr {
     color: greenyellow;
 }
+
 .bl {
     color: aquamarine;
 }
@@ -30,9 +35,78 @@
     color: blue;
 }
 
+.container-blue h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: blue;
+}
 
+.container-blue h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: aquamarine;
+}
 
+.container-blue h3 {
+    font-family: "Comic Sans MS", "Brush Script MT", cursive, fantasy;
+    color: aqua;
+}
 
+@keyframes animation {
+    0% {
+        /* 開始時の状態 */
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        /* 終了時の状態 */
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animation1 {
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.animation2 {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.animation3 {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
 
 .container-green {
     display: flex;
