@@ -19,7 +19,12 @@
 .bl {
     color: aquamarine;
 }
-
+.red-issue-branch {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: black;
+}
 
 
 
