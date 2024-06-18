@@ -26,3 +26,34 @@
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
+
+
+
+
+
+
+
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem
+}
+
+
+.box2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 25rem;
+    width: 25rem;
+    background-color: black;
+    grid-gap: 0.4rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
+
+.cell {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
